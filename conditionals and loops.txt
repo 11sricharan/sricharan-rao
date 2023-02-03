@@ -1,0 +1,223 @@
+Sout>>System.out.println
+
+>>print 1 if small letters 0 if capital -1 if symbols
+
+import java.lang.*;
+import java.util.*;
+publlic class Solution {
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+char ch=s.next().charAt(0);
+int a=ch;
+
+if(a>=65 && a<=90){
+Sout("1");
+}
+if(a>=97 && a<=122){
+Sout("0");
+}
+else{
+Sout("-1");
+}
+}
+
+
+>>farenheit to celsius
+
+import java.util.scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int S=s.nextInt();
+int E=s.nextInt();
+int W=s.nextInt();
+int fah;
+while(S<=E)
+{
+//start farenheit s
+//end farenheit E
+//step size w
+fah=((5*(S-32))/9);
+Sout(S+""+fah);
+S+=W;
+}
+}
+}
+
+>>finding basic salary
+
+totalsalary=basic+hra+da+allow-pf;
+
+
+imort java.util.scanner;
+import java.util.math;
+public class solution[
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int bs=new.nextInt();
+String str=s.next();
+char c=str.charAt(0);
+int all;
+if(c==65){
+all=1700;
+}
+if(c==66){
+all=1500:
+}
+else{
+all=1300;
+}
+double ts=((bs+(0.20*bs)+0.500*bs)+all)-0.11*bs)):
+double p=Math.round(ts);
+int h=(int)(p);
+Sout(h);
+}
+}
+
+multiplication table of n
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in){
+int j=s.nextInt();
+for(int i=1;1<=10:i++){
+Sout(j*i):
+}
+}
+}
+
+print sum of odd digits and sum of even digits
+
+import java.util.Scanner:
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int soe=0,soo=0;
+while(n!=0){
+int temp=n%10;
+if(temp%2==0){
+soe+=temp;
+}
+if(temp%2!=0){
+soo+=temp;
+}
+n=(int)(n/10):
+}
+Sout(soe+""+soo);
+}
+}
+
+print factors of n other than n
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+int a;
+Scanner s=new Scannner(System.in);
+a=s.nextInt();
+for(int i=2;i<a;i++){
+if(a%i==0){
+Sout(i+"");
+}
+}
+}
+}
+
+>>find x to the power of n(i.e x^n)
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int x=s.nextInt();
+int p=1;
+for(int i=1;i<=x;i++){
+p=p*n;
+}
+Sout(p);
+}
+}
+
+
+
+// Here's what the loop is doing:
+
+Initialization: int i = 0 declares a variable i and initializes it to 0.
+
+Condition: i < n is the condition that is checked before each iteration of the loop. If the condition is true, the loop will continue. If it's false, the loop will exit.
+
+Increment: i++ increments the value of i by 1 after each iteration.
+
+The loop continues to execute as long as the condition i < n is true. In each iteration, the value of result is updated to result * x. So, after n iterations, the final value of result is equal to x raised to the power of n.
+
+
+
+
+>>relational and logical operators
+
+import java.util.Scanner;
+public class RelationalLogicalOperators {
+    public static void main(String args[]) {
+     
+     int a=10,b=10;
+     System.out.println(a>b);
+     System.out.println(a<b);
+     System.out.println(a==b);
+     System.out.println(a!=b);
+     System.out.println(a>=b);
+     System.out.println(a<=b);
+     System.out.println(a>=10 && b>10);
+     System.out.println(a>=10 || b>10);
+    }
+}
+
+
+>>largest of two
+
+
+import java.util.Scanner;
+public class LargestOfTwo {
+    public static void main(String args[]) {
+      Scanner s=new Scanner(System.in);
+      int a,b;
+      a=s.nextInt();
+      b=s.nextInt();
+      if(a>b){
+          System.out.println("First num is greater");
+      }else{
+          System.out.println("Second num is greater");
+      }
+      System.out.println("Outside if else");
+    }
+}
+
+
+>>conditional and relational
+
+import java.util.Scanner;
+public class ConditionalAndRelational {
+    public static void main(String args[]) {
+      Scanner s=new Scanner(System.in);
+      int a,b;
+      a=s.nextInt();
+      b=s.nextInt();
+      if(a!=b){
+          System.out.println("Not Equal");
+      }else{
+          System.out.println("Equal");
+      }
+      //if(a>0||b>0){
+        //  System.out.println("One is positive");
+      //}else{
+        //  System.out.println("None is positive");
+      //}
+    }
+}
+
+
+
+
+
