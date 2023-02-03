@@ -1,0 +1,361 @@
+>> square pattern 
+>> print the following pattern for the given n number of rows
+
+pattern for N =4
+4444
+4444
+4444
+4444
+
+input format
+integer N 
+outpout format
+Patterns in n lines
+
+Sample Output 1:
+7777777
+7777777
+7777777
+7777777
+7777777
+7777777
+7777777
+Sample Input 1:
+6
+Sample Output 1:
+666666
+666666
+666666
+666666
+666666
+666666
+
+
+import java.util.scanner;
+public class solution{
+public static void main(String[] args()){
+Scanner s=new Scanner(System.in):
+int n=s.nextInt():
+int i=1;
+while (i<=n){
+int j=1;
+while (j<=n){
+Sout(n);//no ln 
+j=j+1;
+}
+Sout();//contains ln
+i=i+1;
+}
+}
+}
+
+
+>>Code : Triangular Star Pattern
+Send Feedback
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+*
+**
+***
+****
+Note : There are no spaces between the stars (*).
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 50
+Sample Input 1:
+5
+Sample Output 1:
+*
+**
+***
+****
+*****
+Sample Input 2:
+6
+Sample Output 2:
+*
+**
+***
+****
+*****
+******
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int i=1;
+while(i<=n){
+int j=1;
+while (j<=i){
+Sout("*");//no ln
+j=j+1;
+}
+Sout();//with ln
+i=i+1;
+}
+}
+}
+
+
+>>Print the following pattern for the given N number of rows.
+Pattern for N = 4
+1
+22
+333
+4444
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 50
+Sample Input 1:
+5
+Sample Output 1:
+1
+22
+333
+4444
+55555
+Sample Input 2:
+6
+Sample Output 2:
+1
+22
+333
+4444
+55555
+666666
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int i=1;
+while(i<=n){
+int j=1;
+while (j<=i){
+Sout(i);//without ln
+j=j+1;
+}
+Sout();with ln
+i=i+1:
+}
+}
+}
+
+>>Code : Reverse Number Pattern
+Send Feedback
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+1
+21
+321
+4321
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 50
+Sample Input 1:
+5
+Sample Output 1:
+1
+21
+321
+4321
+54321
+Sample Input 2:
+6
+Sample Output 2:
+1
+21
+321
+4321
+54321
+654321
+
+import java.util.Scanner;
+public class solution;
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int i=1;
+while(i<=n){
+int j=1;
+int p=1;
+while(j<=i){
+Sout(p);//without ln
+p=p-1;
+j=j+1;
+}
+Sout();//with ln
+i=i+1;
+}
+}
+}
+
+>>Print the following pattern for the given N number of rows.
+Pattern for N = 3
+ A
+ BB
+ CCC
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 26
+Sample Input 1:
+7
+Sample Output 1:
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+Sample Input 2:
+6
+Sample Output 2:
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+
+import java.util.Scanner;
+public class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int i=1;
+int k=65;
+while(i<=n){
+int j=1;
+while(j<=i){
+Sout((char)k);
+j=j+1;
+}
+k=k+1;
+Sout();
+i=i+1;
+}
+}
+}
+
+>>Code : Character Pattern
+Send Feedback
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+A
+BC
+CDE
+DEFG
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 13
+Sample Input 1:
+5
+Sample Output 1:
+A
+BC
+CDE
+DEFG
+EFGHI
+Sample Input 2:
+6
+Sample Output 2:
+A
+BC
+CDE
+DEFG
+EFGHI
+FGHIJK
+
+
+import java.util.*;
+public clas solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int i=1;
+while(i<=n){
+int j=1;
+int start='A'+i-1;
+while(j<=i){
+sout((char)(start));//without ln
+start++;
+j++;
+}
+sout();//with ln 
+i++;
+}
+}
+}
+
+
+>>Print the following pattern for the given number of rows.
+Pattern for N = 5
+E
+DE
+CDE
+BCDE
+ABCDE
+Input format :
+N (Total no. of rows)
+Output format :
+Pattern in N lines
+Constraints
+0 <= N <= 26
+Sample Input 1:
+8
+Sample Output 1:
+H
+GH
+FGH
+EFGH
+DEFGH
+CDEFGH
+BCDEFGH
+ABCDEFGH
+Sample Input 2:
+7
+Sample Output 2:
+G
+FG
+EFG
+DEFG
+CDEFG
+BCDEFG
+ABCDEFG
+
+
+import java.util.*;
+pubic class solution{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int m;
+char c=(char)(65+n);
+for(int i=1;i<=n;i++){
+c=(char)(c-i);
+for(int j=0;j<i;j++){
+sout(c);
+c++:
+sout();
+}
+}
+}
